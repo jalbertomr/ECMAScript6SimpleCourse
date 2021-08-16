@@ -1,6 +1,7 @@
-// 
+//var has not a block scope
+var age = 18;
 
-function greeting() {
-    return "Hi " + nombre;
+if (age >= 18) {
+  var isMayor = true;
 }
-console.log( greeting());
+console.log( isMayor);

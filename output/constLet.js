@@ -1,10 +1,10 @@
 "use strict";
 
-// var, let and const have function scope, can not been seen from outside the function
-function greeting() {
-  var nombre = "Alberto"
-  return "Hi " + nombre;
+//var has not a block scope
+var age = 18;
+
+if (age >= 18) {
+  var isMayor = true;
 }
 
-console.log(greeting());
-// console.log(nombre);  // Error not visible
+console.log(isMayor);
