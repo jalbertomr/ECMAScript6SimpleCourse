@@ -1,3 +1,8 @@
-let nombre = "Jose Alberto"
+// var Allow us redeclare a variable name, with the risk of lost control in variables
+// and his content.
 
-console.log("This is a message to Console " + nombre);
+var nombre = "Jose Alberto"
+var nombre = "Redeclarando"
+
+
+console.log("Checking transpiler Console v2" + nombre);
