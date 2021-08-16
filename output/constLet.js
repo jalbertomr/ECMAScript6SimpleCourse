@@ -1,10 +1,10 @@
 "use strict";
 
-//var has not a block scope
+//let and const has block scope, not visible outside the block
 var age = 18;
 
 if (age >= 18) {
-  var isMayor = true;
+  var _isMayor = true;
 }
 
 console.log(isMayor);
