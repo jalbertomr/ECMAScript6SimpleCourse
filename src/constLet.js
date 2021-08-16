@@ -1,7 +1,6 @@
-//let and const has block scope, not visible outside the block
-const age = 18;
+//const and Array behaviour, allow add with push
+const colours = ['red','white'];
+//colours = "Not Allowed";
+colours.push("blue");
 
-if (age >= 18) {
-  const isMayor = true;
-}
-console.log( isMayor);
+console.log( colours);
