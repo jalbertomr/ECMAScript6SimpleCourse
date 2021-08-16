@@ -1,8 +1,9 @@
-// var Allow us redeclare a variable name, with the risk of lost control in variables
-// and his content.
+// let and const Not Allow us redeclare a variable name
 
-var nombre = "Jose Alberto"
-var nombre = "Redeclarando"
+let nombre = "Jose Alberto"
+//let nombre = "Redeclarando"   //Error
 
+const pais = "Mexico"
+//const pais = "Redeclarando"   //Error
 
-console.log("Checking transpiler Console v2" + nombre);
+console.log("Checking let and const " + nombre + " " + pais);
