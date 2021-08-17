@@ -1,8 +1,10 @@
 "use strict";
 
-var person = ["Fulanito", "34", "México", "3242342"];
+var person = ["Fulanito",, "México"];
 var name = person[0],
-    age = person[1],
+    _person$ = person[1],
+    age = _person$ === void 0 ? "Not Specified" : _person$,
     country = person[2],
-    phone = person[3];
+    _person$2 = person[3],
+    phone = _person$2 === void 0 ? "00000000" : _person$2;
 console.log("".concat(name, " ").concat(age, " ").concat(country, " ").concat(phone));

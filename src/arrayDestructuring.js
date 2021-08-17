@@ -1,5 +1,5 @@
-const person = ["Fulanito", "34", "México", "3242342"];
+const person = ["Fulanito", , "México"];
 
-const [name, age, country, phone] = person;
+const [name, age = "Not Specified", country, phone = "00000000"] = person;
 
 console.log(`${name} ${age} ${country} ${phone}`);
