@@ -1,5 +1,5 @@
-function addUser(name, country, email, phone) {
+function addUser(name, country = "Not Specified", email, phone = "00000000") {
   return `name: ${name}, country: ${country}, email: ${email}, phone: ${phone}`;
 }
 
-console.log(addUser("Funalito", "México", "fulanito@email.com", "234234234"));
+console.log(addUser("Funalito", undefined, "fulanito@email.com"));
