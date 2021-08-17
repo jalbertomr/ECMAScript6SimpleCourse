@@ -1,6 +1,7 @@
 "use strict";
 
 var array = ["Juana", "Jose", "Alberto", "Fulanuto"];
-var showArrayElementslength = array.map(function (element) {
-  console.log("".concat(element.length));
+var arrayProc = array.map(function (e) {
+  return "".concat(e, " has a length of ").concat(e.length);
 });
+console.log(arrayProc);

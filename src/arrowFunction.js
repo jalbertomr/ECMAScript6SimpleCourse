@@ -1,5 +1,5 @@
 const array = ["Juana", "Jose", "Alberto", "Fulanuto"];
 
-const showArrayElementslength = array.map(function (element) {
-  console.log(`${element.length}`);
-});
+const arrayProc = array.map((e) => `${e} has a length of ${e.length}`);
+
+console.log(arrayProc);
