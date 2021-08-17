@@ -6,6 +6,12 @@ const person = {
   phone: "12345678",
 };
 
-const { name, country } = person;
+const functionDestructuringParamObject = ({
+  name,
+  country,
+  profession = "Not Specified",
+}) => {
+  console.log(name, country, profession);
+};
 
-console.log(name, country);
+functionDestructuringParamObject(person);
