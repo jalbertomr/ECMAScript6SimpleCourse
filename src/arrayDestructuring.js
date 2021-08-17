@@ -1,5 +1,12 @@
 const person = ["Fulanito", , "México"];
 
-const [name, age = "Not Specified", country, phone = "00000000"] = person;
+const showParamsFromArray = ([
+  name,
+  age = "Not Specified",
+  country,
+  phone = "00000000",
+] = arrayPassed) => {
+  console.log(`${name} ${age} ${country} ${phone}`);
+};
 
-console.log(`${name} ${age} ${country} ${phone}`);
+showParamsFromArray(person);
