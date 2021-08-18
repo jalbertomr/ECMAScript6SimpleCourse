@@ -1,12 +1,22 @@
 class Person {
-  constructor(name, age) {
-    (this.name = name), (this.age = age);
-  }
+    constructor(name, age, email) {
+        this.name = name,
+        this.age = age,
+        this.email = email;
+    }
 
-  showProperties() {
-    document.write(person.name + " " + person.age);
-  }
+    showProperties() {
+        return `
+        <b>Name:</b>  ${this.name} <br />
+        <b>Age:</b>   ${this.age} <br />
+        <b>Email:</b> ${this.email} <br />
+        <hr/>
+      `;
+    }
 }
 
-const person = new Person("Fulanito", 37);
-person.showProperties();
+const personA = new Person("Fulanito", 37, "fulanito@email.com");
+document.write(personA.showProperties());
+
+const personB = new Person("Perenganito", 23, "perenganito@email.com");
+document.write(personB.showProperties());
