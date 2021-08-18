@@ -1,8 +1,9 @@
-const createObject = function (name, age) {
+const createObject = (name, age) => {
     return {
-      name: name,
-      age: age
+      name,
+      age,
     }
+    
 }
 
 console.log( createObject("Juan", 24));
