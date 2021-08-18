@@ -1,5 +1,5 @@
-const showInfo = (name, age, email, country ) => {
-    console.log(name, age, email, country );
+const showInfo = (...data) => {
+    console.log(data );
     
 }
 
