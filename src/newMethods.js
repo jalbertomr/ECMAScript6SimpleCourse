@@ -1,5 +1,4 @@
-const text = "Fulanito this is a text";
+const text = ["one","tree","once","eleven","thirteen"]
 
-console.log( text.startsWith('T'));
-console.log( text.toLowerCase().startsWith('T'));
-console.log( text.includes('this is'));
+console.log( text.includes('once'));
+console.log( text.includes("twenty"));

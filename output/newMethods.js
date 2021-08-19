@@ -1,6 +1,5 @@
 "use strict";
 
-var text = "Fulanito this is a text";
-console.log(text.startsWith('T'));
-console.log(text.toLowerCase().startsWith('T'));
-console.log(text.includes('this is'));
+var text = ["one", "tree", "once", "eleven", "thirteen"];
+console.log(text.includes('once'));
+console.log(text.includes("twenty"));
