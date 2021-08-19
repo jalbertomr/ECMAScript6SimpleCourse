@@ -1,6 +1,6 @@
 "use strict";
 
-var text = ["one", "tree", "once", "eleven", "thirteen"];
-console.log(text.findIndex(function (e) {
-  return e === "once";
-}));
+var array = [1, 2, [3, 4], [5, [6]], [[7]]];
+var flatten = array.flat();
+console.log(array);
+console.log(flatten);

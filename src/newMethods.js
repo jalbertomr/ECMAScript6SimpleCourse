@@ -1,3 +1,5 @@
-const text = ["one","tree","once","eleven","thirteen"]
+const array = [ 1, 2, [ 3, 4 ] , [5 , [ 6 ]], [[7]] ];
+const flatten = array.flat();
 
-console.log( text.findIndex( e =>  e === "once" ));
+console.log(array);
+console.log(flatten);
