@@ -1,5 +1,6 @@
 "use strict";
 
 var text = ["one", "tree", "once", "eleven", "thirteen"];
-console.log(text.includes('once'));
-console.log(text.includes("twenty"));
+console.log(text.findIndex(function (e) {
+  return e === "once";
+}));
