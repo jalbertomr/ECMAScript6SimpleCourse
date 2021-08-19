@@ -1,4 +1,3 @@
 const text = ["one","tree","once","eleven","thirteen"]
 
-console.log( text.includes('once'));
-console.log( text.includes("twenty"));
+console.log( text.find( e =>  e.length > 4 ));
