@@ -9,7 +9,7 @@
     "webpack-cli": "^4.8.0"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --watch",
     "build-babel": "babel src -d output --watch"
   }
 }
