@@ -1,3 +1,3 @@
-const message = 'testing webpack installation';
+import {doAlertMessage} from "./modules/alertMessage";
 
-console.log(message);
+doAlertMessage("calling a imported function");
