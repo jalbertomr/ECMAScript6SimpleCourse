@@ -1,4 +1,4 @@
-import {Person} from "./modules/classPerson";
+import PersonRenamed from "./modules/classPerson";
 
-const personA = new Person("Fulanito", 50);
+const personA = new PersonRenamed("Fulanito", 50);
 personA.showInfo();
