@@ -1,5 +1,13 @@
-const array = [ 1, 2, [ 3, 4 ] , [5 , [ 6 ]], [[7]] ];
-const flatten = array.flat(2);
+const transport = [ "avión","auto", "barco" ];
+const transportType = ["aéreo","terrestre","maritimo"];
 
-console.log(array);
-console.log(flatten);
+const dataMapped = transport.map( 
+  (transport, idx) => [transport, transportType[idx]]
+);
+
+const dataFlatMapped = transport.flatMap(
+  (transport, idx) => [transport, transportType[idx]]
+);
+
+console.log(dataMapped);
+console.log(dataFlatMapped);

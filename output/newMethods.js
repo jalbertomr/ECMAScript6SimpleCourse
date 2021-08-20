@@ -1,6 +1,12 @@
 "use strict";
 
-var array = [1, 2, [3, 4], [5, [6]], [[7]]];
-var flatten = array.flat(2);
-console.log(array);
-console.log(flatten);
+var transport = ["avión", "auto", "barco"];
+var transportType = ["aéreo", "terrestre", "maritimo"];
+var dataMapped = transport.map(function (transport, idx) {
+  return [transport, transportType[idx]];
+});
+var dataFlatMapped = transport.flatMap(function (transport, idx) {
+  return [transport, transportType[idx]];
+});
+console.log(dataMapped);
+console.log(dataFlatMapped);
