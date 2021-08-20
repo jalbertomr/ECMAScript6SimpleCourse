@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"doAlertMessage\": () => (/* binding */ doAlertMessage),\n/* harmony export */   \"doConsoleMessage\": () => (/* binding */ doConsoleMessage)\n/* harmony export */ });\nvar doAlertMessage = function doAlertMessage(message) {\n  alert(message);\n};\nvar doConsoleMessage = function doConsoleMessage() {\n  console.log(\"doing console message.\");\n};\n\n//# sourceURL=webpack:///./src/modules/alertMessage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"doAlertMessage\": () => (/* binding */ doAlertMessage),\n/* harmony export */   \"doConsoleMessage\": () => (/* binding */ doConsoleMessage)\n/* harmony export */ });\nvar doAlertMessage = function doAlertMessage(message) {\n  alert(message);\n};\n\nvar doConsoleMessage = function doConsoleMessage() {\n  console.log(\"doing console message. export at end\");\n};\n\n\n\n//# sourceURL=webpack:///./src/modules/alertMessage.js?");
 
 /***/ })
 

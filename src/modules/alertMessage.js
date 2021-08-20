@@ -1,7 +1,9 @@
-export const doAlertMessage = (message) => { 
+const doAlertMessage = (message) => { 
     alert( message);
 }
 
-export const doConsoleMessage = () => {
-  console.log("doing console message.");
+const doConsoleMessage = () => {
+  console.log("doing console message. export at end");
 };
+
+export {doAlertMessage, doConsoleMessage};
